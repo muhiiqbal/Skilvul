@@ -30,4 +30,4 @@ while (guess !== answer) { -> Melakukan pengulangan selama jawaban masih salah
 guess = prompt("Berapa konsumsi BBM dari Toyota "); -> Menampilkan prompt() dan menyimpan jawaban dari user ke variabel guess
 if (guess === answer) { -> Memeriksa apakah jawaban dari user benar
 alert("Selamat jawaban kamu benar!"); // Menampilkan jika jawaban benar
-} else { -> Jika jawaban masih salah
+} else { -> Jika jawaban masih salah  
