@@ -4,5 +4,5 @@ for (var i = 0; i <= 20; i++) {
     } else {
       console.log(i + " adalah bilangan ganjil");
     }
-  }
+  } 
   
