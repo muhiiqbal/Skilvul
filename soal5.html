@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Looping</title>
+</head>
+<body>
+	<script>
+    let answer = "1:13"; // Jawaban yang benar
+    let guess = ""; // Variabel untuk menyimpan jawaban dari user
+    
+    while (guess !== answer) { // Melakukan pengulangan selama jawaban masih salah
+        guess = prompt("Berapa konsumsi BBM dari Toyota "); // Menampilkan prompt() dan menyimpan jawaban dari user ke variabel guess
+        if (guess === answer) { // Memeriksa apakah jawaban dari user benar
+            alert("Selamat jawaban kamu benar!"); // Menampilkan alert jika jawaban benar
+        } else { // Jika jawaban masih salah
+            alert("Maaf, jawaban kamu masih salah. Silakan coba lagi."); // Menampilkan alert jika jawaban salah dan melakukan pengulangan
+        }
+    }
+    </script>
+    </body>
+</html>
+    

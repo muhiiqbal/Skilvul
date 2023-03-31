@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Looping</title>
+</head>
+<body>
+	<h1>Confirmation</h1>
+	<script>
+var jumlahKlik = 0;
+
+while (true) {
+  var konfirmasi = confirm("Apakah anda mau mengulang?");
+  
+  if (konfirmasi) {
+    jumlahKlik++;
+  } else {
+    break;
+  }
+}
+
+alert("Perulangan sudah dilakukan sebanyak " + jumlahKlik + " kali.");
+</script>
+</body>
+</html>
